@@ -1,0 +1,11 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BC_STM32F446RE
+D 성준이가 만들었던 STM
+$ENDCMP
+#
+$CMP NUCLEO-F446RE-STM_BC_0
+D 내가 설계했던 F446RE
+$ENDCMP
+#
+#End Doc Library
