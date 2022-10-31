@@ -1,0 +1,244 @@
+EESchema Schematic File Version 4
+LIBS:Motor_MotherBoard-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 6
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L BC_Motor_Drivers:MC5004P U?
+U 1 1 63609980
+P 4615 3500
+AR Path="/635EAE14/63609980" Ref="U?"  Part="1" 
+AR Path="/6360DF7C/63609980" Ref="U2"  Part="1" 
+F 0 "U2" H 4490 4275 50  0000 C CNN
+F 1 "MC5004P" H 4490 4184 50  0000 C CNN
+F 2 "BC_Motor_Driver:MC5004P" H 4615 3400 50  0001 C CNN
+F 3 "" H 4615 3400 50  0001 C CNN
+	1    4615 3500
+	1    0    0    -1  
+$EndComp
+Text Label 3895 2950 2    50   ~ 0
+P_A
+Wire Wire Line
+	4015 2950 3895 2950
+Text Label 3895 3150 2    50   ~ 0
+P_B
+Wire Wire Line
+	4015 3150 3895 3150
+Wire Wire Line
+	4015 3050 4015 2950
+Connection ~ 4015 2950
+Wire Wire Line
+	4015 3250 4015 3150
+Connection ~ 4015 3150
+$Comp
+L power:GND #PWR?
+U 1 1 6360998E
+P 4015 3750
+AR Path="/635EAE14/6360998E" Ref="#PWR?"  Part="1" 
+AR Path="/6360DF7C/6360998E" Ref="#PWR02"  Part="1" 
+F 0 "#PWR02" H 4015 3500 50  0001 C CNN
+F 1 "GND" V 4020 3622 50  0000 R CNN
+F 2 "" H 4015 3750 50  0001 C CNN
+F 3 "" H 4015 3750 50  0001 C CNN
+	1    4015 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L power:VSS #PWR?
+U 1 1 63609994
+P 4015 3550
+AR Path="/635EAE14/63609994" Ref="#PWR?"  Part="1" 
+AR Path="/6360DF7C/63609994" Ref="#PWR01"  Part="1" 
+F 0 "#PWR01" H 4015 3400 50  0001 C CNN
+F 1 "VSS" V 4033 3678 50  0000 L CNN
+F 2 "" H 4015 3550 50  0001 C CNN
+F 3 "" H 4015 3550 50  0001 C CNN
+	1    4015 3550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4015 3650 4015 3550
+Connection ~ 4015 3550
+Wire Wire Line
+	4015 3750 4015 3850
+Connection ~ 4015 3750
+$Comp
+L power:VSS #PWR?
+U 1 1 6360999E
+P 4015 3950
+AR Path="/635EAE14/6360999E" Ref="#PWR?"  Part="1" 
+AR Path="/6360DF7C/6360999E" Ref="#PWR03"  Part="1" 
+F 0 "#PWR03" H 4015 3800 50  0001 C CNN
+F 1 "VSS" V 4033 4078 50  0000 L CNN
+F 2 "" H 4015 3950 50  0001 C CNN
+F 3 "" H 4015 3950 50  0001 C CNN
+	1    4015 3950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 636099A4
+P 4015 4650
+AR Path="/635EAE14/636099A4" Ref="#PWR?"  Part="1" 
+AR Path="/6360DF7C/636099A4" Ref="#PWR04"  Part="1" 
+F 0 "#PWR04" H 4015 4400 50  0001 C CNN
+F 1 "GND" V 4020 4522 50  0000 R CNN
+F 2 "" H 4015 4650 50  0001 C CNN
+F 3 "" H 4015 4650 50  0001 C CNN
+	1    4015 4650
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 636099AA
+P 4965 3450
+AR Path="/635EAE14/636099AA" Ref="#PWR?"  Part="1" 
+AR Path="/6360DF7C/636099AA" Ref="#PWR05"  Part="1" 
+F 0 "#PWR05" H 4965 3200 50  0001 C CNN
+F 1 "GND" V 4970 3322 50  0000 R CNN
+F 2 "" H 4965 3450 50  0001 C CNN
+F 3 "" H 4965 3450 50  0001 C CNN
+	1    4965 3450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 636099B0
+P 4965 4350
+AR Path="/635EAE14/636099B0" Ref="#PWR?"  Part="1" 
+AR Path="/6360DF7C/636099B0" Ref="#PWR06"  Part="1" 
+F 0 "#PWR06" H 4965 4100 50  0001 C CNN
+F 1 "GND" V 4970 4222 50  0000 R CNN
+F 2 "" H 4965 4350 50  0001 C CNN
+F 3 "" H 4965 4350 50  0001 C CNN
+	1    4965 4350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 636099B6
+P 4965 5150
+AR Path="/635EAE14/636099B6" Ref="#PWR?"  Part="1" 
+AR Path="/6360DF7C/636099B6" Ref="#PWR07"  Part="1" 
+F 0 "#PWR07" H 4965 4900 50  0001 C CNN
+F 1 "GND" V 4970 5022 50  0000 R CNN
+F 2 "" H 4965 5150 50  0001 C CNN
+F 3 "" H 4965 5150 50  0001 C CNN
+	1    4965 5150
+	0    -1   -1   0   
+$EndComp
+Text Label 4015 4550 2    50   ~ 0
+UDD
+Text Label 4015 4750 2    50   ~ 0
+CH_A
+Text Label 4015 4950 2    50   ~ 0
+CH_B
+$Comp
+L BC_Connectors:CON_6pin_motor U?
+U 1 1 636099BF
+P 6880 3855
+AR Path="/635EAE14/636099BF" Ref="U?"  Part="1" 
+AR Path="/6360DF7C/636099BF" Ref="U4"  Part="1" 
+F 0 "U4" V 6455 3830 50  0000 C CNN
+F 1 "CON_6pin_motor" V 6546 3830 50  0000 C CNN
+F 2 "Connector_IDC:IDC-Header_2x03_P2.54mm_Vertical" H 6880 3955 50  0001 C CNN
+F 3 "" H 6880 3955 50  0001 C CNN
+	1    6880 3855
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 636099C5
+P 6580 3855
+AR Path="/635EAE14/636099C5" Ref="#PWR?"  Part="1" 
+AR Path="/6360DF7C/636099C5" Ref="#PWR08"  Part="1" 
+F 0 "#PWR08" H 6580 3605 50  0001 C CNN
+F 1 "GND" V 6585 3727 50  0000 R CNN
+F 2 "" H 6580 3855 50  0001 C CNN
+F 3 "" H 6580 3855 50  0001 C CNN
+	1    6580 3855
+	0    1    1    0   
+$EndComp
+Text Label 7130 3755 0    50   ~ 0
+P_A
+Text Label 7130 3655 0    50   ~ 0
+P_B
+Text Label 7130 4055 0    50   ~ 0
+CH_A
+Text Label 7130 3955 0    50   ~ 0
+CH_B
+$Comp
+L Device:R R?
+U 1 1 636099CF
+P 6870 3135
+AR Path="/635EAE14/636099CF" Ref="R?"  Part="1" 
+AR Path="/6360DF7C/636099CF" Ref="R1"  Part="1" 
+F 0 "R1" V 6663 3135 50  0000 C CNN
+F 1 "Cap" V 6754 3135 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P5.08mm_Vertical" V 6800 3135 50  0001 C CNN
+F 3 "~" H 6870 3135 50  0001 C CNN
+	1    6870 3135
+	0    1    1    0   
+$EndComp
+$Comp
+L power:VSS #PWR?
+U 1 1 636099D5
+P 6720 3135
+AR Path="/635EAE14/636099D5" Ref="#PWR?"  Part="1" 
+AR Path="/6360DF7C/636099D5" Ref="#PWR09"  Part="1" 
+F 0 "#PWR09" H 6720 2985 50  0001 C CNN
+F 1 "VSS" V 6738 3263 50  0000 L CNN
+F 2 "" H 6720 3135 50  0001 C CNN
+F 3 "" H 6720 3135 50  0001 C CNN
+	1    6720 3135
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 636099DB
+P 7020 3135
+AR Path="/635EAE14/636099DB" Ref="#PWR?"  Part="1" 
+AR Path="/6360DF7C/636099DB" Ref="#PWR010"  Part="1" 
+F 0 "#PWR010" H 7020 2885 50  0001 C CNN
+F 1 "GND" V 7025 3007 50  0000 R CNN
+F 2 "" H 7020 3135 50  0001 C CNN
+F 3 "" H 7020 3135 50  0001 C CNN
+	1    7020 3135
+	0    -1   -1   0   
+$EndComp
+Wire Notes Line
+	3665 2695 3665 5445
+Wire Notes Line
+	3660 5455 5290 5455
+Wire Notes Line
+	5290 2680 3660 2680
+Text GLabel 4965 4950 2    50   Input ~ 0
+CAN_H
+Text GLabel 4965 5050 2    50   Input ~ 0
+CAN_L
+Wire Notes Line
+	5290 5445 5290 2695
+Text Label 7130 3855 0    50   ~ 0
+UDD
+Wire Notes Line
+	6175 2755 6175 4180
+Wire Notes Line
+	6175 4180 7445 4180
+Wire Notes Line
+	7445 4180 7445 2745
+Wire Notes Line
+	7445 2740 6175 2740
+Wire Notes Line
+	6175 2745 6175 2740
+$EndSCHEMATC

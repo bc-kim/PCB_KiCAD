@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name BC_Connectors2)(type Legacy)(uri D:/git/PCB/Motor_control_PCB/Libraries/Custom_Libraries/BC_customs/Symbols/BC_Connectors_symbol/BC_Connectors2.lib)(options "")(descr ""))
+)
