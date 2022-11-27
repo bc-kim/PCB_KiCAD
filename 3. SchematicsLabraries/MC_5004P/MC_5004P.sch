@@ -448,12 +448,12 @@ F 3 "" H 2780 3275 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R4
+L pspice:CAP C1
 U 1 1 606A2EB0
 P 2855 1110
-F 0 "R4" V 2648 1110 50  0000 C CNN
+F 0 "C1" V 2648 1110 50  0000 C CNN
 F 1 "Cap" V 2739 1110 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P5.08mm_Vertical" V 2785 1110 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" V 2785 1110 50  0001 C CNN
 F 3 "~" H 2855 1110 50  0001 C CNN
 	1    2855 1110
 	0    1    1    0   
