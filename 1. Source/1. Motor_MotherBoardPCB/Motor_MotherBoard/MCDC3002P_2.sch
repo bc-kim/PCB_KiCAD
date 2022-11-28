@@ -113,7 +113,7 @@ F 1 "220uF" V 6239 2070 50  0000 C CNN
 F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" V 6285 2070 50  0001 C CNN
 F 3 "~" H 6355 2070 50  0001 C CNN
 	1    6355 2070
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L power:VSS #PWR?
