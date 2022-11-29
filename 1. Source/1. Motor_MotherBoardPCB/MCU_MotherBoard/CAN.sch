@@ -91,4 +91,34 @@ F 3 "" H 5265 2240 50  0001 C CNN
 	1    5265 2240
 	-1   0    0    1   
 $EndComp
+$Comp
+L BC_Connectors:Connector_JST_01x03 J?
+U 1 1 638BC967
+P 5445 2870
+AR Path="/6387462E/638BC967" Ref="J?"  Part="1" 
+AR Path="/6386E3EE/638BC967" Ref="J1"  Part="1" 
+F 0 "J1" H 5525 2912 50  0000 L CNN
+F 1 "Connector_JST_01x03" H 5525 2821 50  0000 L CNN
+F 2 "Connectors_JST:JST_XH_S03B-XH-A_03x2.50mm_Angled" H 5445 2870 50  0001 C CNN
+F 3 "" H 5445 2870 50  0001 C CNN
+	1    5445 2870
+	1    0    0    -1  
+$EndComp
+Text Label 5245 2970 2    50   ~ 0
+CAN_L
+Text Label 5245 2870 2    50   ~ 0
+CAN_H
+$Comp
+L power:GND #PWR?
+U 1 1 638BC96F
+P 5245 2770
+AR Path="/6387462E/638BC96F" Ref="#PWR?"  Part="1" 
+AR Path="/6386E3EE/638BC96F" Ref="#PWR024"  Part="1" 
+F 0 "#PWR024" H 5245 2520 50  0001 C CNN
+F 1 "GND" H 5250 2597 50  0000 C CNN
+F 2 "" H 5245 2770 50  0001 C CNN
+F 3 "" H 5245 2770 50  0001 C CNN
+	1    5245 2770
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
