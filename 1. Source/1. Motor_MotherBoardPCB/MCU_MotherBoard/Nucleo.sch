@@ -35,9 +35,9 @@ Text HLabel 5105 3560 2    50   Input ~ 0
 CAN1_RX
 Text HLabel 5105 3660 2    50   Input ~ 0
 CAN1_TX
+Text HLabel 5105 5360 2    50   Input ~ 0
+I2C1_EnOut
 Text HLabel 5105 3460 2    50   Input ~ 0
-I2C1_EN
-Text HLabel 5105 4660 2    50   Input ~ 0
 I2C1_Inter
 Wire Wire Line
 	4105 5760 4205 5760
@@ -68,4 +68,39 @@ F 3 "" H 4705 5760 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 4705 5760
+$Comp
+L power:+5V #PWR?
+U 1 1 6385A94B
+P 4205 2260
+F 0 "#PWR?" H 4205 2110 50  0001 C CNN
+F 1 "+5V" H 4220 2433 50  0000 C CNN
+F 2 "" H 4205 2260 50  0001 C CNN
+F 3 "" H 4205 2260 50  0001 C CNN
+	1    4205 2260
+	1    0    0    -1  
+$EndComp
+Text HLabel 5105 3360 2    50   Input ~ 0
+I2C2_EnOut
+Text HLabel 5105 5160 2    50   Input ~ 0
+I2C2_SCL
+Text HLabel 3705 5260 0    50   Input ~ 0
+I2C2_SDA
+Text HLabel 5105 2960 2    50   Input ~ 0
+SPI1_SCK
+Text HLabel 5105 3060 2    50   Input ~ 0
+SPI1_MISO
+Text HLabel 5105 3160 2    50   Input ~ 0
+SPI1_MOSI
+Text HLabel 3705 4460 0    50   Input ~ 0
+SPI1_CS1
+Text HLabel 5105 5260 2    50   Input ~ 0
+GPIO_Input1
+Text HLabel 5105 5560 2    50   Input ~ 0
+GPIO_Input2
+Text HLabel 5105 2460 2    50   Input ~ 0
+ADC1_In0
+Text HLabel 5105 2860 2    50   Input ~ 0
+ADC1_In4
+Text HLabel 5105 2560 2    50   Input ~ 0
+ADC1_In1
 $EndSCHEMATC
