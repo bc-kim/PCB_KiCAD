@@ -63,7 +63,7 @@ AR Path="/6387462E/6388AF21" Ref="C?"  Part="1"
 AR Path="/6386F0B7/6388AF21" Ref="C17"  Part="1" 
 F 0 "C17" V 4590 2820 50  0000 L CNN
 F 1 "10uF" V 4340 2910 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 4478 2705 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" H 4478 2705 50  0001 C CNN
 F 3 "~" H 4440 2855 50  0001 C CNN
 	1    4440 2855
 	-1   0    0    1   
@@ -839,19 +839,6 @@ F 3 "" H 3565 5745 50  0001 C CNN
 	1    3565 5745
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:C C?
-U 1 1 63886F01
-P 4590 5795
-AR Path="/6387462E/63886F01" Ref="C?"  Part="1" 
-AR Path="/6386F0B7/63886F01" Ref="C4"  Part="1" 
-F 0 "C4" V 4740 5760 50  0000 L CNN
-F 1 "50uF" H 4305 5895 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 4628 5645 50  0001 C CNN
-F 3 "~" H 4590 5795 50  0001 C CNN
-	1    4590 5795
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	4315 5645 4590 5645
 Connection ~ 4590 5645
@@ -881,7 +868,7 @@ AR Path="/6387462E/6388B12B" Ref="C?"  Part="1"
 AR Path="/6386F0B7/6388B12B" Ref="C3"  Part="1" 
 F 0 "C3" H 3155 5400 50  0000 L CNN
 F 1 "10uF" H 3085 5495 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 3408 5245 50  0001 C CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-7343-31_Kemet-D" H 3408 5245 50  0001 C CNN
 F 3 "~" H 3370 5395 50  0001 C CNN
 	1    3370 5395
 	1    0    0    -1  
@@ -996,7 +983,7 @@ AR Path="/6386F0B7/638B458D" Ref="C1"  Part="1"
 AR Path="/6386EE9C/638B458D" Ref="C?"  Part="1" 
 F 0 "C1" V 2065 4110 50  0000 L CNN
 F 1 "0.33uF" H 1630 4245 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 1953 3995 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" H 1953 3995 50  0001 C CNN
 F 3 "~" H 1915 4145 50  0001 C CNN
 	1    1915 4145
 	-1   0    0    1   
@@ -1017,4 +1004,17 @@ F 3 "" H 1915 4295 50  0001 C CNN
 $EndComp
 Connection ~ 1915 3995
 Connection ~ 2715 3995
+$Comp
+L Device:C C?
+U 1 1 63886F01
+P 4590 5795
+AR Path="/6387462E/63886F01" Ref="C?"  Part="1" 
+AR Path="/6386F0B7/63886F01" Ref="C4"  Part="1" 
+F 0 "C4" V 4740 5760 50  0000 L CNN
+F 1 "10uF" H 4305 5895 50  0000 L CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-7343-31_Kemet-D" H 4628 5645 50  0001 C CNN
+F 3 "~" H 4590 5795 50  0001 C CNN
+	1    4590 5795
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
