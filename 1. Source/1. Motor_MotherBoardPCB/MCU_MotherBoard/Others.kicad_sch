@@ -1,490 +1,1462 @@
-(kicad_sch (version 20211123) (generator eeschema)
-
-  (uuid 600c705e-a181-42cb-a37e-a21dd939ffc8)
-
-  (paper "A4")
-
-  (lib_symbols
-    (symbol "Device:R" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "R" (id 0) (at 2.032 0 90)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "R" (id 1) (at 0 0 90)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (id 2) (at -1.778 0 90)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (id 3) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "R res resistor" (id 4) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Resistor" (id 5) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "R_*" (id 6) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "R_0_1"
-        (rectangle (start -1.016 -2.54) (end 1.016 2.54)
-          (stroke (width 0.254) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-      )
-      (symbol "R_1_1"
-        (pin passive line (at 0 3.81 270) (length 1.27)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -3.81 90) (length 1.27)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "dk_Tactile-Switches:B3F-1000" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-      (property "Reference" "S" (id 0) (at 0 5.08 0)
-        (effects (font (size 1.524 1.524)))
-      )
-      (property "Value" "B3F-1000" (id 1) (at 0 -5.08 0)
-        (effects (font (size 1.524 1.524)))
-      )
-      (property "Footprint" "digikey-footprints:Switch_Tactile_THT_B3F-1xxx" (id 2) (at 5.08 5.08 0)
-        (effects (font (size 1.524 1.524)) (justify left) hide)
-      )
-      (property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3f.pdf" (id 3) (at 5.08 7.62 0)
-        (effects (font (size 1.524 1.524)) (justify left) hide)
-      )
-      (property "Digi-Key_PN" "SW400-ND" (id 4) (at 5.08 10.16 0)
-        (effects (font (size 1.524 1.524)) (justify left) hide)
-      )
-      (property "MPN" "B3F-1000" (id 5) (at 5.08 12.7 0)
-        (effects (font (size 1.524 1.524)) (justify left) hide)
-      )
-      (property "Category" "Switches" (id 6) (at 5.08 15.24 0)
-        (effects (font (size 1.524 1.524)) (justify left) hide)
-      )
-      (property "Family" "Tactile Switches" (id 7) (at 5.08 17.78 0)
-        (effects (font (size 1.524 1.524)) (justify left) hide)
-      )
-      (property "DK_Datasheet_Link" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3f.pdf" (id 8) (at 5.08 20.32 0)
-        (effects (font (size 1.524 1.524)) (justify left) hide)
-      )
-      (property "DK_Detail_Page" "/product-detail/en/omron-electronics-inc-emc-div/B3F-1000/SW400-ND/33150" (id 9) (at 5.08 22.86 0)
-        (effects (font (size 1.524 1.524)) (justify left) hide)
-      )
-      (property "Description" "SWITCH TACTILE SPST-NO 0.05A 24V" (id 10) (at 5.08 25.4 0)
-        (effects (font (size 1.524 1.524)) (justify left) hide)
-      )
-      (property "Manufacturer" "Omron Electronics Inc-EMC Div" (id 11) (at 5.08 27.94 0)
-        (effects (font (size 1.524 1.524)) (justify left) hide)
-      )
-      (property "Status" "Active" (id 12) (at 5.08 30.48 0)
-        (effects (font (size 1.524 1.524)) (justify left) hide)
-      )
-      (property "ki_keywords" "SW400-ND B3F" (id 13) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "SWITCH TACTILE SPST-NO 0.05A 24V" (id 14) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "B3F-1000_0_1"
-        (circle (center -1.524 0) (radius 0.254)
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -2.54 2.54)
-            (xy -2.54 -2.54)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.778 0)
-            (xy -2.54 0)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.778 1.27)
-            (xy 1.778 1.27)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 2.54 -2.54)
-            (xy 2.54 2.54)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 2.54 0)
-            (xy 1.778 0)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (circle (center 1.524 0) (radius 0.254)
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-      )
-      (symbol "B3F-1000_1_1"
-        (polyline
-          (pts
-            (xy -1.016 2.794)
-            (xy 0.889 2.794)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 2.794)
-            (xy 0 1.27)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (pin passive line (at -5.08 2.54 0) (length 2.54)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -5.08 -2.54 0) (length 2.54)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 5.08 2.54 180) (length 2.54)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 5.08 -2.54 180) (length 2.54)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "4" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "power:+5V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "+5V" (id 1) (at 0 3.556 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (id 2) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (id 3) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "power-flag" (id 4) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name \"+5V\"" (id 5) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "+5V_0_1"
-        (polyline
-          (pts
-            (xy -0.762 1.27)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 2.54)
-            (xy 0.762 1.27)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-      )
-      (symbol "+5V_1_1"
-        (pin power_in line (at 0 0 90) (length 0) hide
-          (name "+5V" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "power:GND" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (id 0) (at 0 -6.35 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "GND" (id 1) (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (id 2) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (id 3) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "power-flag" (id 4) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name \"GND\" , ground" (id 5) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "GND_0_1"
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 -1.27)
-            (xy 1.27 -1.27)
-            (xy 0 -2.54)
-            (xy -1.27 -1.27)
-            (xy 0 -1.27)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-      )
-      (symbol "GND_1_1"
-        (pin power_in line (at 0 0 270) (length 0) hide
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-  )
-
-  (junction (at 97.409 92.583) (diameter 0) (color 0 0 0 0)
-    (uuid 86909586-4c3e-4f77-9b42-700f6cb16a91)
-  )
-  (junction (at 97.409 107.823) (diameter 0) (color 0 0 0 0)
-    (uuid b10bd89d-1a16-485f-af5a-231da0794a5d)
-  )
-
-  (wire (pts (xy 97.409 112.903) (xy 97.409 107.823))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 59987817-dbe5-451c-916d-431584697147)
-  )
-  (wire (pts (xy 97.409 97.663) (xy 97.409 92.583))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 6fa56926-4d61-417e-ad8f-abf1ed2c6842)
-  )
-
-  (hierarchical_label "GPIO_Input2" (shape input) (at 87.249 107.823 180)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 7bfa4784-9f7d-471c-bde1-a26ae3763e02)
-  )
-  (hierarchical_label "GPIO_Input1" (shape input) (at 87.249 92.583 180)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid e9e4f4e7-c663-44f2-8de5-7bc7a1be1be6)
-  )
-
-  (symbol (lib_id "dk_Tactile-Switches:B3F-1000") (at 92.329 95.123 0) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid 00000000-0000-0000-0000-000063887663)
-    (property "Reference" "" (id 0) (at 92.329 86.3092 0)
-      (effects (font (size 1.524 1.524)))
-    )
-    (property "Value" "B3F-1000" (id 1) (at 92.329 89.0016 0)
-      (effects (font (size 1.524 1.524)))
-    )
-    (property "Footprint" "digikey-footprints:Switch_Tactile_THT_B3F-1xxx" (id 2) (at 97.409 90.043 0)
-      (effects (font (size 1.524 1.524)) (justify left) hide)
-    )
-    (property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3f.pdf" (id 3) (at 97.409 87.503 0)
-      (effects (font (size 1.524 1.524)) (justify left) hide)
-    )
-    (property "Digi-Key_PN" "SW400-ND" (id 4) (at 97.409 84.963 0)
-      (effects (font (size 1.524 1.524)) (justify left) hide)
-    )
-    (property "MPN" "B3F-1000" (id 5) (at 97.409 82.423 0)
-      (effects (font (size 1.524 1.524)) (justify left) hide)
-    )
-    (property "Category" "Switches" (id 6) (at 97.409 79.883 0)
-      (effects (font (size 1.524 1.524)) (justify left) hide)
-    )
-    (property "Family" "Tactile Switches" (id 7) (at 97.409 77.343 0)
-      (effects (font (size 1.524 1.524)) (justify left) hide)
-    )
-    (property "DK_Datasheet_Link" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3f.pdf" (id 8) (at 97.409 74.803 0)
-      (effects (font (size 1.524 1.524)) (justify left) hide)
-    )
-    (property "DK_Detail_Page" "/product-detail/en/omron-electronics-inc-emc-div/B3F-1000/SW400-ND/33150" (id 9) (at 97.409 72.263 0)
-      (effects (font (size 1.524 1.524)) (justify left) hide)
-    )
-    (property "Description" "SWITCH TACTILE SPST-NO 0.05A 24V" (id 10) (at 97.409 69.723 0)
-      (effects (font (size 1.524 1.524)) (justify left) hide)
-    )
-    (property "Manufacturer" "Omron Electronics Inc-EMC Div" (id 11) (at 97.409 67.183 0)
-      (effects (font (size 1.524 1.524)) (justify left) hide)
-    )
-    (property "Status" "Active" (id 12) (at 97.409 64.643 0)
-      (effects (font (size 1.524 1.524)) (justify left) hide)
-    )
-    (pin "1" (uuid 0d94501e-c9a2-4c33-bbca-1d96ec6acc96))
-    (pin "2" (uuid 3cc05617-d82e-402e-9cdb-607495290096))
-    (pin "3" (uuid 69843b61-00ad-4e91-b7e3-d29c51fac6ab))
-    (pin "4" (uuid 8487bb2e-7ded-4eaf-a1f5-e55ff71af36b))
-  )
-
-  (symbol (lib_id "power:GND") (at 79.629 97.663 270) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid 00000000-0000-0000-0000-00006388766a)
-    (property "Reference" "" (id 0) (at 73.279 97.663 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (id 1) (at 76.3778 97.79 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "" (id 2) (at 79.629 97.663 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 79.629 97.663 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 09789372-b7ca-48e0-8dae-58734d03e96a))
-  )
-
-  (symbol (lib_id "Device:R") (at 83.439 97.663 90) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid 00000000-0000-0000-0000-000063887670)
-    (property "Reference" "" (id 0) (at 83.566 99.822 90))
-    (property "Value" "10k" (id 1) (at 83.439 95.123 90))
-    (property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" (id 2) (at 83.439 99.441 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (id 3) (at 83.439 97.663 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 182f7f46-1d6a-46cb-a433-32e66ac6a9e5))
-    (pin "2" (uuid b105be42-71a7-4333-8fe3-88ae499a739e))
-  )
-
-  (symbol (lib_id "power:+5V") (at 97.409 92.583 270) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid 00000000-0000-0000-0000-000063887676)
-    (property "Reference" "" (id 0) (at 93.599 92.583 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+5V" (id 1) (at 101.8032 92.964 0))
-    (property "Footprint" "" (id 2) (at 97.409 92.583 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 97.409 92.583 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 03e79ac1-4d9e-430b-be42-f0707f83813e))
-  )
-
-  (symbol (lib_id "dk_Tactile-Switches:B3F-1000") (at 92.329 110.363 0) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid 00000000-0000-0000-0000-000063887687)
-    (property "Reference" "" (id 0) (at 92.329 101.5492 0)
-      (effects (font (size 1.524 1.524)))
-    )
-    (property "Value" "B3F-1000" (id 1) (at 92.329 104.2416 0)
-      (effects (font (size 1.524 1.524)))
-    )
-    (property "Footprint" "digikey-footprints:Switch_Tactile_THT_B3F-1xxx" (id 2) (at 97.409 105.283 0)
-      (effects (font (size 1.524 1.524)) (justify left) hide)
-    )
-    (property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3f.pdf" (id 3) (at 97.409 102.743 0)
-      (effects (font (size 1.524 1.524)) (justify left) hide)
-    )
-    (property "Digi-Key_PN" "SW400-ND" (id 4) (at 97.409 100.203 0)
-      (effects (font (size 1.524 1.524)) (justify left) hide)
-    )
-    (property "MPN" "B3F-1000" (id 5) (at 97.409 97.663 0)
-      (effects (font (size 1.524 1.524)) (justify left) hide)
-    )
-    (property "Category" "Switches" (id 6) (at 97.409 95.123 0)
-      (effects (font (size 1.524 1.524)) (justify left) hide)
-    )
-    (property "Family" "Tactile Switches" (id 7) (at 97.409 92.583 0)
-      (effects (font (size 1.524 1.524)) (justify left) hide)
-    )
-    (property "DK_Datasheet_Link" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3f.pdf" (id 8) (at 97.409 90.043 0)
-      (effects (font (size 1.524 1.524)) (justify left) hide)
-    )
-    (property "DK_Detail_Page" "/product-detail/en/omron-electronics-inc-emc-div/B3F-1000/SW400-ND/33150" (id 9) (at 97.409 87.503 0)
-      (effects (font (size 1.524 1.524)) (justify left) hide)
-    )
-    (property "Description" "SWITCH TACTILE SPST-NO 0.05A 24V" (id 10) (at 97.409 84.963 0)
-      (effects (font (size 1.524 1.524)) (justify left) hide)
-    )
-    (property "Manufacturer" "Omron Electronics Inc-EMC Div" (id 11) (at 97.409 82.423 0)
-      (effects (font (size 1.524 1.524)) (justify left) hide)
-    )
-    (property "Status" "Active" (id 12) (at 97.409 79.883 0)
-      (effects (font (size 1.524 1.524)) (justify left) hide)
-    )
-    (pin "1" (uuid 31b2e7fa-de5d-4f28-9184-bb66ff2650b4))
-    (pin "2" (uuid 95d4efde-765b-44b1-b0d4-a9701cd59937))
-    (pin "3" (uuid 600915dc-2f94-43bc-b28c-78691ca57eab))
-    (pin "4" (uuid 88d637e9-e6b0-41b2-adf2-1a75ed5ed730))
-  )
-
-  (symbol (lib_id "power:GND") (at 79.629 112.903 270) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid 00000000-0000-0000-0000-00006388768e)
-    (property "Reference" "" (id 0) (at 73.279 112.903 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (id 1) (at 76.3778 113.03 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "" (id 2) (at 79.629 112.903 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 79.629 112.903 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid ed57878e-86e1-40c9-8d0e-aa0dafd8e411))
-  )
-
-  (symbol (lib_id "Device:R") (at 83.439 112.903 90) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid 00000000-0000-0000-0000-000063887694)
-    (property "Reference" "" (id 0) (at 83.566 115.062 90))
-    (property "Value" "10k" (id 1) (at 83.439 110.363 90))
-    (property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" (id 2) (at 83.439 114.681 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (id 3) (at 83.439 112.903 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid e847f31d-f9c9-4f24-a685-1aaedcbe6034))
-    (pin "2" (uuid adec10f8-1a1c-49b3-bd17-db4196474071))
-  )
-
-  (symbol (lib_id "power:+5V") (at 97.409 107.823 270) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid 00000000-0000-0000-0000-00006388769a)
-    (property "Reference" "" (id 0) (at 93.599 107.823 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+5V" (id 1) (at 101.8032 108.204 0))
-    (property "Footprint" "" (id 2) (at 97.409 107.823 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 97.409 107.823 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid badebcd4-0e60-4709-96d5-f890994b32af))
-  )
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "600c705e-a181-42cb-a37e-a21dd939ffc8")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Device:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "dk_Tactile-Switches:B3F-1000"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "S"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "B3F-1000"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "digikey-footprints:Switch_Tactile_THT_B3F-1xxx"
+				(at 5.08 5.08 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3f.pdf"
+				(at 5.08 7.62 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "SWITCH TACTILE SPST-NO 0.05A 24V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Digi-Key_PN" "SW400-ND"
+				(at 5.08 10.16 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "MPN" "B3F-1000"
+				(at 5.08 12.7 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Category" "Switches"
+				(at 5.08 15.24 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Family" "Tactile Switches"
+				(at 5.08 17.78 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "DK_Datasheet_Link" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3f.pdf"
+				(at 5.08 20.32 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "DK_Detail_Page" "/product-detail/en/omron-electronics-inc-emc-div/B3F-1000/SW400-ND/33150"
+				(at 5.08 22.86 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "SWITCH TACTILE SPST-NO 0.05A 24V"
+				(at 5.08 25.4 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Omron Electronics Inc-EMC Div"
+				(at 5.08 27.94 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Status" "Active"
+				(at 5.08 30.48 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "SW400-ND B3F"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "B3F-1000_0_1"
+				(circle
+					(center -1.524 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy -2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 1.27) (xy 1.778 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.778 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.524 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "B3F-1000_1_1"
+				(polyline
+					(pts
+						(xy -1.016 2.794) (xy 0.889 2.794)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.794) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:+5V"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0) hide
+					(name "+5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 97.409 92.583)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "86909586-4c3e-4f77-9b42-700f6cb16a91")
+	)
+	(junction
+		(at 97.409 107.823)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b10bd89d-1a16-485f-af5a-231da0794a5d")
+	)
+	(wire
+		(pts
+			(xy 97.409 112.903) (xy 97.409 107.823)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59987817-dbe5-451c-916d-431584697147")
+	)
+	(wire
+		(pts
+			(xy 97.409 97.663) (xy 97.409 92.583)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fa56926-4d61-417e-ad8f-abf1ed2c6842")
+	)
+	(hierarchical_label "GPIO_Input2"
+		(shape input)
+		(at 87.249 107.823 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7bfa4784-9f7d-471c-bde1-a26ae3763e02")
+	)
+	(hierarchical_label "GPIO_Input1"
+		(shape input)
+		(at 87.249 92.583 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e9e4f4e7-c663-44f2-8de5-7bc7a1be1be6")
+	)
+	(symbol
+		(lib_id "dk_Tactile-Switches:B3F-1000")
+		(at 92.329 95.123 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000063887663")
+		(property "Reference" "S9"
+			(at 92.329 86.3092 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "B3F-1000"
+			(at 92.329 89.0016 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "digikey-footprints:Switch_Tactile_THT_B3F-1xxx"
+			(at 97.409 90.043 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3f.pdf"
+			(at 97.409 87.503 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 92.329 95.123 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key_PN" "SW400-ND"
+			(at 97.409 84.963 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "B3F-1000"
+			(at 97.409 82.423 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Category" "Switches"
+			(at 97.409 79.883 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Family" "Tactile Switches"
+			(at 97.409 77.343 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "DK_Datasheet_Link" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3f.pdf"
+			(at 97.409 74.803 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "DK_Detail_Page" "/product-detail/en/omron-electronics-inc-emc-div/B3F-1000/SW400-ND/33150"
+			(at 97.409 72.263 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "SWITCH TACTILE SPST-NO 0.05A 24V"
+			(at 97.409 69.723 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Omron Electronics Inc-EMC Div"
+			(at 97.409 67.183 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Status" "Active"
+			(at 97.409 64.643 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0d94501e-c9a2-4c33-bbca-1d96ec6acc96")
+		)
+		(pin "2"
+			(uuid "3cc05617-d82e-402e-9cdb-607495290096")
+		)
+		(pin "3"
+			(uuid "69843b61-00ad-4e91-b7e3-d29c51fac6ab")
+		)
+		(pin "4"
+			(uuid "8487bb2e-7ded-4eaf-a1f5-e55ff71af36b")
+		)
+		(instances
+			(project "MCU_MotherBoard"
+				(path "/e57f85d6-78ee-44df-aa72-c1c8dad0bc35/00000000-0000-0000-0000-00006360bdb0"
+					(reference "S9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 79.629 97.663 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00006388766a")
+		(property "Reference" "#PWR012"
+			(at 73.279 97.663 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 76.3778 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 79.629 97.663 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 79.629 97.663 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 79.629 97.663 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "09789372-b7ca-48e0-8dae-58734d03e96a")
+		)
+		(instances
+			(project "MCU_MotherBoard"
+				(path "/e57f85d6-78ee-44df-aa72-c1c8dad0bc35/00000000-0000-0000-0000-00006360bdb0"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 83.439 97.663 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000063887670")
+		(property "Reference" "R8"
+			(at 83.566 99.822 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 83.439 95.123 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
+			(at 83.439 99.441 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 83.439 97.663 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 83.439 97.663 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "182f7f46-1d6a-46cb-a433-32e66ac6a9e5")
+		)
+		(pin "2"
+			(uuid "b105be42-71a7-4333-8fe3-88ae499a739e")
+		)
+		(instances
+			(project "MCU_MotherBoard"
+				(path "/e57f85d6-78ee-44df-aa72-c1c8dad0bc35/00000000-0000-0000-0000-00006360bdb0"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 97.409 92.583 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000063887676")
+		(property "Reference" "#PWR014"
+			(at 93.599 92.583 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 101.8032 92.964 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.409 92.583 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.409 92.583 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 97.409 92.583 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "03e79ac1-4d9e-430b-be42-f0707f83813e")
+		)
+		(instances
+			(project "MCU_MotherBoard"
+				(path "/e57f85d6-78ee-44df-aa72-c1c8dad0bc35/00000000-0000-0000-0000-00006360bdb0"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "dk_Tactile-Switches:B3F-1000")
+		(at 92.329 110.363 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000063887687")
+		(property "Reference" "S10"
+			(at 92.329 101.5492 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "B3F-1000"
+			(at 92.329 104.2416 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "digikey-footprints:Switch_Tactile_THT_B3F-1xxx"
+			(at 97.409 105.283 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3f.pdf"
+			(at 97.409 102.743 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 92.329 110.363 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key_PN" "SW400-ND"
+			(at 97.409 100.203 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "B3F-1000"
+			(at 97.409 97.663 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Category" "Switches"
+			(at 97.409 95.123 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Family" "Tactile Switches"
+			(at 97.409 92.583 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "DK_Datasheet_Link" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3f.pdf"
+			(at 97.409 90.043 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "DK_Detail_Page" "/product-detail/en/omron-electronics-inc-emc-div/B3F-1000/SW400-ND/33150"
+			(at 97.409 87.503 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "SWITCH TACTILE SPST-NO 0.05A 24V"
+			(at 97.409 84.963 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Omron Electronics Inc-EMC Div"
+			(at 97.409 82.423 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Status" "Active"
+			(at 97.409 79.883 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "31b2e7fa-de5d-4f28-9184-bb66ff2650b4")
+		)
+		(pin "2"
+			(uuid "95d4efde-765b-44b1-b0d4-a9701cd59937")
+		)
+		(pin "3"
+			(uuid "600915dc-2f94-43bc-b28c-78691ca57eab")
+		)
+		(pin "4"
+			(uuid "88d637e9-e6b0-41b2-adf2-1a75ed5ed730")
+		)
+		(instances
+			(project "MCU_MotherBoard"
+				(path "/e57f85d6-78ee-44df-aa72-c1c8dad0bc35/00000000-0000-0000-0000-00006360bdb0"
+					(reference "S10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 79.629 112.903 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00006388768e")
+		(property "Reference" "#PWR013"
+			(at 73.279 112.903 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 76.3778 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 79.629 112.903 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 79.629 112.903 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 79.629 112.903 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ed57878e-86e1-40c9-8d0e-aa0dafd8e411")
+		)
+		(instances
+			(project "MCU_MotherBoard"
+				(path "/e57f85d6-78ee-44df-aa72-c1c8dad0bc35/00000000-0000-0000-0000-00006360bdb0"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 83.439 112.903 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000063887694")
+		(property "Reference" "R9"
+			(at 83.566 115.062 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 83.439 110.363 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
+			(at 83.439 114.681 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 83.439 112.903 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 83.439 112.903 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e847f31d-f9c9-4f24-a685-1aaedcbe6034")
+		)
+		(pin "2"
+			(uuid "adec10f8-1a1c-49b3-bd17-db4196474071")
+		)
+		(instances
+			(project "MCU_MotherBoard"
+				(path "/e57f85d6-78ee-44df-aa72-c1c8dad0bc35/00000000-0000-0000-0000-00006360bdb0"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 97.409 107.823 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00006388769a")
+		(property "Reference" "#PWR015"
+			(at 93.599 107.823 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 101.8032 108.204 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.409 107.823 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.409 107.823 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 97.409 107.823 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "badebcd4-0e60-4709-96d5-f890994b32af")
+		)
+		(instances
+			(project "MCU_MotherBoard"
+				(path "/e57f85d6-78ee-44df-aa72-c1c8dad0bc35/00000000-0000-0000-0000-00006360bdb0"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
 )

@@ -1,0 +1,200 @@
+EESchema Schematic File Version 4
+LIBS:MCU_MotherBoard-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 7
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text HLabel 8550 2780 0    50   Input ~ 0
+LC3_EnOut
+Text HLabel 6240 2800 0    50   Input ~ 0
+LC2_EnOut
+Text HLabel 4140 2815 0    50   Input ~ 0
+LC1_EnOut
+Text HLabel 5040 2665 2    50   Input ~ 0
+LC1_Interrupt
+Text HLabel 7140 2650 2    50   Input ~ 0
+LC2_Interrupt
+Text HLabel 9450 2630 2    50   Input ~ 0
+LC3_Int
+Text HLabel 9450 3080 2    50   Input ~ 0
+I2C2_SDA
+Text HLabel 9450 3230 2    50   Input ~ 0
+I2C2_SCL
+$Comp
+L BC_IC_components:LoadCell_Click4 U15
+U 1 1 6385E10B
+P 4590 2365
+F 0 "U15" H 4590 2480 50  0000 C CNN
+F 1 "LoadCell_Click4" H 4590 2389 50  0000 C CNN
+F 2 "BC_IC_components:LoadCell_Click4" H 4590 2365 50  0001 C CNN
+F 3 "" H 4590 2365 50  0001 C CNN
+	1    4590 2365
+	1    0    0    -1  
+$EndComp
+NoConn ~ 4140 2515
+NoConn ~ 4140 2665
+NoConn ~ 4140 2965
+NoConn ~ 4140 3115
+NoConn ~ 4140 3265
+NoConn ~ 5040 2965
+NoConn ~ 5040 2515
+NoConn ~ 5040 2815
+NoConn ~ 6240 2500
+NoConn ~ 6240 2650
+NoConn ~ 6240 2950
+NoConn ~ 6240 3100
+NoConn ~ 6240 3250
+NoConn ~ 7140 2950
+NoConn ~ 7140 2500
+NoConn ~ 7140 2800
+$Comp
+L BC_IC_components:LoadCell_Click4 U17
+U 1 1 6386AAB7
+P 9000 2330
+F 0 "U17" H 9000 2445 50  0000 C CNN
+F 1 "LoadCell_Click4" H 9000 2354 50  0000 C CNN
+F 2 "BC_IC_components:LoadCell_Click4" H 9000 2330 50  0001 C CNN
+F 3 "" H 9000 2330 50  0001 C CNN
+	1    9000 2330
+	1    0    0    -1  
+$EndComp
+NoConn ~ 8550 2480
+NoConn ~ 8550 2630
+NoConn ~ 8550 2930
+NoConn ~ 8550 3080
+NoConn ~ 8550 3230
+NoConn ~ 9450 2930
+NoConn ~ 9450 2480
+NoConn ~ 9450 2780
+Text HLabel 5040 3115 2    50   Input ~ 0
+I2C1_SDA
+Text HLabel 5040 3265 2    50   Input ~ 0
+I2C1_SCL
+Text HLabel 7140 3100 2    50   Input ~ 0
+I2C1_SDA
+Text HLabel 7140 3250 2    50   Input ~ 0
+I2C1_SCL
+$Comp
+L BC_IC_components:LoadCell_Click4 U16
+U 1 1 63869C04
+P 6690 2350
+F 0 "U16" H 6690 2465 50  0000 C CNN
+F 1 "LoadCell_Click4" H 6690 2374 50  0000 C CNN
+F 2 "BC_IC_components:LoadCell_Click4" H 6690 2350 50  0001 C CNN
+F 3 "" H 6690 2350 50  0001 C CNN
+	1    6690 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR04
+U 1 1 6386E0D0
+P 4140 3565
+F 0 "#PWR04" H 4140 3315 50  0001 C CNN
+F 1 "GND" V 4145 3437 50  0000 R CNN
+F 2 "" H 4140 3565 50  0001 C CNN
+F 3 "" H 4140 3565 50  0001 C CNN
+	1    4140 3565
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR05
+U 1 1 6386E5C1
+P 5040 3565
+F 0 "#PWR05" H 5040 3315 50  0001 C CNN
+F 1 "GND" V 5045 3437 50  0000 R CNN
+F 2 "" H 5040 3565 50  0001 C CNN
+F 3 "" H 5040 3565 50  0001 C CNN
+	1    5040 3565
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR08
+U 1 1 6386EF97
+P 7140 3550
+F 0 "#PWR08" H 7140 3300 50  0001 C CNN
+F 1 "GND" V 7145 3422 50  0000 R CNN
+F 2 "" H 7140 3550 50  0001 C CNN
+F 3 "" H 7140 3550 50  0001 C CNN
+	1    7140 3550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR011
+U 1 1 6386F943
+P 9450 3530
+F 0 "#PWR011" H 9450 3280 50  0001 C CNN
+F 1 "GND" V 9455 3402 50  0000 R CNN
+F 2 "" H 9450 3530 50  0001 C CNN
+F 3 "" H 9450 3530 50  0001 C CNN
+	1    9450 3530
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR010
+U 1 1 63870417
+P 8550 3530
+F 0 "#PWR010" H 8550 3280 50  0001 C CNN
+F 1 "GND" V 8555 3402 50  0000 R CNN
+F 2 "" H 8550 3530 50  0001 C CNN
+F 3 "" H 8550 3530 50  0001 C CNN
+	1    8550 3530
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR07
+U 1 1 63870B12
+P 6240 3550
+F 0 "#PWR07" H 6240 3300 50  0001 C CNN
+F 1 "GND" V 6245 3422 50  0000 R CNN
+F 2 "" H 6240 3550 50  0001 C CNN
+F 3 "" H 6240 3550 50  0001 C CNN
+	1    6240 3550
+	0    1    1    0   
+$EndComp
+NoConn ~ 9450 3380
+NoConn ~ 7140 3400
+NoConn ~ 5040 3415
+$Comp
+L power:+3.3V #PWR03
+U 1 1 63875DFC
+P 4140 3415
+F 0 "#PWR03" H 4140 3265 50  0001 C CNN
+F 1 "+3.3V" V 4155 3543 50  0000 L CNN
+F 2 "" H 4140 3415 50  0001 C CNN
+F 3 "" H 4140 3415 50  0001 C CNN
+	1    4140 3415
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3.3V #PWR06
+U 1 1 6387663F
+P 6240 3400
+F 0 "#PWR06" H 6240 3250 50  0001 C CNN
+F 1 "+3.3V" V 6255 3528 50  0000 L CNN
+F 2 "" H 6240 3400 50  0001 C CNN
+F 3 "" H 6240 3400 50  0001 C CNN
+	1    6240 3400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3.3V #PWR09
+U 1 1 63877602
+P 8550 3380
+F 0 "#PWR09" H 8550 3230 50  0001 C CNN
+F 1 "+3.3V" V 8565 3508 50  0000 L CNN
+F 2 "" H 8550 3380 50  0001 C CNN
+F 3 "" H 8550 3380 50  0001 C CNN
+	1    8550 3380
+	0    -1   -1   0   
+$EndComp
+$EndSCHEMATC
